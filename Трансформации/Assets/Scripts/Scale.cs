@@ -6,6 +6,6 @@ public class Scale : MonoBehaviour
 
     private void Update()
     {
-        transform.localScale = transform.localScale + new Vector3(0.5f,0.5f,0.5f) * _speed;
+        transform.localScale = transform.localScale + Vector3.one * _speed;
     }
 }

@@ -354,9 +354,10 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Mover.cs"
-"Assets/Rotator.cs"
-"Assets/Scale.cs"
+"Assets/Scripts/Mover.cs"
+"Assets/Scripts/MoverInDirection.cs"
+"Assets/Scripts/Rotator.cs"
+"Assets/Scripts/Scale.cs"
 -langversion:9.0
 
 /deterministic
