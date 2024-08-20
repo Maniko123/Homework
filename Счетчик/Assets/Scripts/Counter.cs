@@ -11,14 +11,14 @@ public class Counter : MonoBehaviour
     private WaitForSeconds _expectation;
     private int _number;
 
-    void Start()
+    private void Start()
     {
         _number = 0;
         _textCounter.text = _number.ToString();
         _expectation = new WaitForSeconds(_timeDelay);
     }
 
-    void Update()
+    private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
