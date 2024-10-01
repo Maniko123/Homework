@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Painter : MonoBehaviour
 {
-    public void PaintCube(Rigidbody newCube)
+    public void PaintCube(MeshRenderer meshRenderer)
     {
-        newCube.GetComponent<Renderer>().material.color = new Color(Random.value, Random.value, Random.value);
+        meshRenderer.material.color = Random.ColorHSV();
     }
 }

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 9eb8d8c62637341feb033c0828cdbfae
+  productGUID: 40671478c4a5c4d5b96d9c6ce5701fab
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -232,6 +232,7 @@ PlayerSettings:
   iOSMetalForceHardShadows: 0
   metalEditorSupport: 1
   metalAPIValidation: 1
+  metalCompileShaderBinary: 0
   iOSRenderExtraFrameOnPause: 0
   iosCopyPluginsCodeInsteadOfSymlink: 0
   appleDeveloperTeamID: 
@@ -697,6 +698,7 @@ PlayerSettings:
   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
   metroSplashScreenUseBackgroundColor: 0
+  syncCapabilities: 0
   platformCapabilities: {}
   metroTargetDeviceFamilies: {}
   metroFTAName: 
@@ -752,10 +754,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: cadc8a26-4ecd-484c-bb6d-c883eef2b875
+  cloudProjectId: 6b688144-d9a6-4176-a93a-fb380528394d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: "\u0412\u0437\u0440\u044B\u0432\u044B \u043A\u0443\u0431\u043E\u0432"
+  projectName: "\u0412\u0437\u0440\u044B\u0432\u044B \u043A\u0443\u0431\u043E\u0432
+    2024-09-17_20-36-03"
   organizationId: unity_4d3e7d4ee22daaf7cc1a
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

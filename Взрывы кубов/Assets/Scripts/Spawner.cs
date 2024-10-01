@@ -21,7 +21,7 @@ public class Spawner : MonoBehaviour
             {
                 Rigidbody newCube = Instantiate(hitInfo.collider.attachedRigidbody);
                 newCube.transform.localScale /= _scaleDenominator;
-                _painter.PaintCube(newCube);
+                _painter.PaintCube(newCube.GetComponent<MeshRenderer>());
                 _exploder.ExplodeOnSpawn(newCube);
             }
         }
@@ -31,5 +31,5 @@ public class Spawner : MonoBehaviour
         }
 
         Destroy(hitInfo.collider.gameObject);
-    }
+    }    
 }
